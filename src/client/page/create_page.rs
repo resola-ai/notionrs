@@ -78,6 +78,7 @@ impl CreatePageClient {
         };
 
         let request_body = serde_json::to_string(&request_body_struct)?;
+        println!("The request body is: {}", request_body);
 
         let url = "https://api.notion.com/v1/pages".to_string();
 

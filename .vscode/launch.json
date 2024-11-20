@@ -1,0 +1,361 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'notionrs'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "notionrs",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'block_audio_create'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=block_audio_create",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "block_audio_create",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'block_audio_create'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=block_audio_create",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "block_audio_create",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'block_audio_update'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=block_audio_update",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "block_audio_update",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'block_audio_update'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=block_audio_update",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "block_audio_update",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'block_delete_a_block'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=block_delete_a_block",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "block_delete_a_block",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'block_delete_a_block'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=block_delete_a_block",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "block_delete_a_block",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'block_retrieve_a_block'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=block_retrieve_a_block",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "block_retrieve_a_block",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'block_retrieve_a_block'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=block_retrieve_a_block",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "block_retrieve_a_block",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'create_page'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=create_page",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "create_page",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'create_page'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=create_page",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "create_page",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'get_self_basic'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=get_self_basic",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "get_self_basic",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'get_self_basic'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=get_self_basic",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "get_self_basic",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'get_self_extract_params'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=get_self_extract_params",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "get_self_extract_params",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'get_self_extract_params'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=get_self_extract_params",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "get_self_extract_params",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'migrate_jira'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=migrate_jira",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "migrate_jira",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'migrate_jira'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=migrate_jira",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "migrate_jira",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'search'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=search",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "search",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'tests'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=tests",
+                    "--package=notionrs"
+                ],
+                "filter": {
+                    "name": "tests",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
